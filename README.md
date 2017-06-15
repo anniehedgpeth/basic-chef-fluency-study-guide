@@ -24,7 +24,7 @@ Here is a detailed breakdown of each area.
 When a node is converged, chef-client first tests to see if the node is in the same state as defined by the recipe. If it is not, then it repairs the node in accordance to the recipe.
 
 ## Common	resources	and	their	actions						
-*Default actions*
+*Default actions*<br/>
 The `:nothing` action
  - This simply means that this resource will do nothing to the node unless told otherwise.
 
