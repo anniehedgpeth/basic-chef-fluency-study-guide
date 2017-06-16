@@ -1,5 +1,5 @@
 # Basic Chef Fluency Kata CHEAT SHEET
-Please see the associated exercise kata for the Basic Chef Fluency Badge in the [basic-chef-fluency-kata.md](basic-chef-fluency-study-guide/basic-chef-fluency-kata.md) file.
+Please see the associated exercise kata for the Basic Chef Fluency Badge in the [basic-chef-fluency-kata.md](https://github.com/anniehedgpeth/basic-chef-fluency-study-guide/blob/master/basic-chef-fluency-kata.md) file.
 
 # Create a new repo for today's kata (or just branch the repo)
  - from code/chef/work create a new repo `chef generate repo chefkata<#>`
