@@ -2,7 +2,7 @@
 
 > The topics for this guide are taken directly from [training.chef.io](https://training.chef.io). 
 
-When studying for the Basic Chef Fluency Badge exam, I recommend that you go through this guide daily until you are very comfortable going through the material. 
+When studying for the [Basic Chef Fluency Badge exam](https://training.chef.io/basic-chef-fluency-badge), I recommend that you go through this guide daily until you are very comfortable going through the material. 
 
 ## The files in this guide are:
 ### Basic Chef Fluency Study Guide
@@ -14,3 +14,8 @@ When studying for the Basic Chef Fluency Badge exam, I recommend that you go thr
 
 ## IMPROVEMENTS?
 Do you see any errors or ways in which this guide can be improved? Please submit a [pull request](https://github.com/anniehedgpeth/basic-chef-fluency-study-guide/pulls) or [issue](https://github.com/anniehedgpeth/basic-chef-fluency-study-guide/issues)!
+
+## Other Good Resources
+[Basic Chef Fluency Badge YouTube Playlist](https://www.youtube.com/playlist?list=PL_H2cfWwTC4yeHbXYOCsJOZadHyCLQ55W)
+
+[Certified Chef Developer Basic Chef Fluency Badge by Linux Academy](https://linuxacademy.com/devops/training/course/name/certified-chef-developer-basic-chef-fluency-badge)
