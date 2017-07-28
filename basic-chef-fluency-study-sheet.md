@@ -84,13 +84,13 @@ When a node is converged, chef-client first tests to see if the node is in the s
 - If Chef server being a single point of failure being a huge risk for you, then you can run Chef server in high availability mode, which means it has redundancy. 
 
 ### Scalability
-- If the chef-client is on the node being configured, then it scales more easily because a server doesn't have to do all the work. Scaling with High Availabililty (HA) is also an option.
+- If the chef-client is on the node being configured, then it scales more easily because a server doesn't have to do all the work. Scaling with High Availability (HA) is also an option.
 
 ## SEARCH
 *Candidates should understand:*
 
 ### What search is
-- `knife search` commands can be use to search the Chef server.
+- `knife search` commands can be used to search the Chef server.
 
 ### How to search for node information
 - `knife search node "<index>:<search_query>"` may be invoked or you may search in the Chef server UI (nodes > attributes).
@@ -131,13 +131,13 @@ When a node is converged, chef-client first tests to see if the node is in the s
 - The node on which Chef client is installed has a client.rb file which contains a link and credentials to access the Chef server. The Chef server never accesses the Chef client; it merely holds the data that the client will need to access. The Chef client communicates to the Chef server over https (port 443) or http (port 80).
 
 ### The Chef client configuration
-- The client is configures the node that it is on based on the run-list it is given during the bootstrap or knife commands.
+- The client configures the node that it is on based on the run-list it is given during the bootstrap or knife commands.
 
 ## NODES
 *Candidates should understand:*
 
 ### What a node is
-- A node is the machine that is being configured by the Chef client.
+- A node is a machine that is being configured by the Chef client.
 
 ### What a node object is
 - A node object is data that is given to the Chef server to store by the Chef client after `chef-client` is run which contains OHAI data as well as attributes.
@@ -515,7 +515,7 @@ When a node is converged, chef-client first tests to see if the node is in the s
 - A test is more reliable if nothing is installed on the node being installed because you don't have to change the state of the node being tested; you merely have to inspect it.
 
 ### How to check for compliance on nodes that don't have the Chef client installed
-- You simply need to be able to have remote access into the node in order for the InSpec framework to use your profile to scan the node being inspected.
+- You simply need to be able to have remote access to the node in order for the InSpec framework to use your profile to scan the node being inspected.
 
 ### Basic use cases for compliance
 - Regulatory security and compliance standards
